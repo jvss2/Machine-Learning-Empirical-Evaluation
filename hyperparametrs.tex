@@ -1,0 +1,26 @@
+\begin{table}
+    \centering
+    \caption{Classifier Hyperparameters}\label{tb:hiperparameters}
+    \begin{tabular}{l l}
+    \toprule
+    Classifiers & Hyperparameters\\
+    \midrule
+    Decision Tree & Criterion = Gini\\
+    KNN & k = 7\\ 
+    MLP & n\_hidden = (100), max\_iter = 1000\\
+    Naive Bayes & Algorithm = Gaussian\\
+    \hline
+    Bagging (DT, KNN, MLP, NB) &  n\_estimators = 100\\
+    \hline
+    Gradient Boosted Decision Tree & n\_estimators = 100\\
+    Random Forest & n\_estimators = 100\\
+    SingleBest & score function = accuracy\\
+    StaticSelection & score function = accuracy\\
+    \hline
+    KNOP & k = 7\\
+    METADES & k = 7, selection threshold = 0.5\\
+    OLA & k = 7\\
+    \bottomrule
+    \end{tabular}
+\end{table}
+    
